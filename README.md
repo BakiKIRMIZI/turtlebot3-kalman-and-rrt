@@ -11,3 +11,8 @@ The project consists of two parts:
 2. <br /> - A ROS node will be written to implement an RRT-based motion planning algorithm that will navigate the robot to a target pose determined by the user via the /goal_pose topic. <br /> - Obstacles will be in the form of cylinders. The positions and radii of the obstacles will be read from a txt file. Each line of this txt file will contain the x and y coordinates of an obstacle along with its radius. <br /> - Test your motion planning node with different numbers and radii of obstacles.
 
 The localization and motion planning nodes will work together.
+
+---
+For details on installing Turtlebot3 Burger and using it in Gazebo, please refer to the link below:
+
+[emanuel.robotis.com](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation "https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation")
